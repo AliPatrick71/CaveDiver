@@ -35,14 +35,11 @@ Gameplay Instructions
 
 Project Structure
 
-scss
-
-CaveDiver/
-│
-│   ├── CaveCell.java         // Represents individual cells of the cave grid
-│   ├── CaveGrid.java         // Manages the grid and drawing the cells
-│   └── CaveDiverApp.java     // Main application with the GUI and game logic
-├── README.md                 // This readme file
+    CaveDiver/
+    │   ├── CaveCell.java         // Represents individual cells of the cave grid
+    │   ├── CaveGrid.java         // Manages the grid and drawing the cells
+    │   └── CaveDiverApp.java     // Main application with the GUI and game logic
+    ├── README.md                 // This readme file
 
 Installation and Setup
 Prerequisites
@@ -52,13 +49,15 @@ Prerequisites
 
 Running the Application
 
-    Clone or download the repository to your local machine.
-    Navigate to the src directory where the Java files are located.
-    Compile the Java files:
+Clone or download the repository to your local machine.
+If you are using VSCode, open the terminal.
+You can also use CMD command prompt.
+Navigate to the CaveDiver directory where the Java files are located.
+Compile the Java files:
 
-    bash
+bash
 
-javac *.java
+    javac *.java
 
 Run the application:
 
@@ -66,7 +65,7 @@ bash
 
     java CaveDiverApp
 
-Alternatively, if you're using an IDE, you can simply import the project and run the CaveDiverApp class.
+Alternatively, if you're using an IDE like VSCode, you can simply import the project and run the CaveDiverApp class.
 How It Works
 
     Cave Grid: The cave grid consists of 100 cells, each with a random depth between 0 and 100. The depth determines how "deep" the cave cell is, and cells are colored in shades of blue based on their depth.
